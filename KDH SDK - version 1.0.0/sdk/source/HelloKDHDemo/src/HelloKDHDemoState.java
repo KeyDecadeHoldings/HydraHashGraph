@@ -56,6 +56,13 @@ public class HelloKDHDemoState implements KDHtate {
 	}
 
 	// ///////////////////////////////////////////////////////////////////
+	
+		/** @return security,*/
+	public synchronized boo checkSecurity() {
+		return boo;
+	}
+
+	// ///////////////////////////////////////////////////////////////////
 
 	@Override
 	public synchronized AddressBook getAddressBookCopy() {
