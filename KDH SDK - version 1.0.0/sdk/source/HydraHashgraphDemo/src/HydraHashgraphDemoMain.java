@@ -495,4 +495,9 @@ public class hydrahashgraphDemoMain implements KDHMain {
 	public KDHtate newState() {
 		return new hydrahashgraphDemoState();
 	}
+	
+	@Override
+	public void EndState(){
+		end; // to end state
+	}
 }
