@@ -58,7 +58,7 @@ SYSTEM:*FASL-LOADER* 24)) 24016 '(VAR-LIST (REGEX TARGET-STRING &OPTIONAL RESULT
 matches of REGEX against TARGET-STRING, i.e. if there are N matches
 the list contains (* 2 N) elements.  If REGEX matches an empty string
 the scan is continued one position behind this match.")
-(FUNCALL (SYSTEM::GET-FASL-FUNCTION SYSTEM:*FASL-LOADER* 26))
+(FUNCALL (SYSTEM::GET-FASL-FUNCTION SYSTEM:*FASL-LOADER* 26)) 
 (SYSTEM:FSET 'ALL-MATCHES-AS-STRINGS (SYSTEM::GET-FASL-FUNCTION SYSTEM:*FASL-LOADER* 
 28) 27363 '(REGEX #1=TARGET-STRING &KEY (START 0) (END (LENGTH #1# )) SHAREDP) "Returns a list containing all substrings of TARGET-STRING which
 match REGEX. If REGEX matches an empty string the scan is continued
