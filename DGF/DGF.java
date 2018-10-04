@@ -131,7 +131,7 @@ contract DGF {
     event onReinvestment(
         address indexed PlayerAddress,
         uint256 EthReinvested,
-        uint256 tokensMinted
+        uint256 tokensMinted 
     );
     
     event onWithdraw(
@@ -199,6 +199,14 @@ contract DGF {
         // add administrators here
        
         // add the Participants here.
+        
+    }
+	
+   function addParticipantsValue()
+        public
+    {
+        
+	   participantsValues();
         
     }
     
