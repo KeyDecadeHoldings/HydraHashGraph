@@ -36,7 +36,7 @@ public class StatsDemoMain implements KDHMain {
 	/** number of milliseconds between writes to the log file */
 	private int writePeriod = 3000;
 	/** bytes in each transaction */
-	private int bytesPerTrans = 1;
+	private int bytesPerTrans = 2; 
 	/** create at most this many transactions in preEvent, even if more is needed to meet target rate */
 	private int transPerEventMax = 2048;
 	/** transactions in each Event */
