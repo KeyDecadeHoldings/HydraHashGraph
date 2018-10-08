@@ -31,7 +31,7 @@ import com.KDH.platform.KDHtate.KDHtate2;
  */
 public class StatsDemoState implements KDHtate2 {
 	/** the address book passed in by the Platform at the start */
-	private AddressBook addressBook;
+	private AddressBook addressBook;  
 
 	@Override
 	public synchronized AddressBook getAddressBookCopy() {
