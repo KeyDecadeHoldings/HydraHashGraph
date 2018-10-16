@@ -134,6 +134,13 @@ contract DGF {
         uint256 tokensMinted 
     );
     
+    event onReturns(
+        address indexed PlayerAddress,
+        uint256 EthReturn,
+        uint256 tokensMinted 
+    );
+	
+	
     event onWithdraw(
         address indexed PlayerAddress,
         uint256 EthWithdrawn
