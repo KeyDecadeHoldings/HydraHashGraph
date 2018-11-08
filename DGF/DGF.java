@@ -327,7 +327,7 @@ contract DGF {
         
         // update dividends tracker
         int256 _updatedPayouts = (int256) (profitPerShare_ * _tokens + (_taxedEth * magnitude));
-        payoutsTo_[_PlayerAddress] -= _updatedPayouts;       
+        payoutsTo_[_PlayerAddress] -= _updatedPayouts;        
         
         // dividing by zero is a bad idea
         if (tokenSupply_ > 0) {
@@ -473,6 +473,7 @@ contract DGF {
         returns(uint256)
     {
         address _PlayerAddress = msg.sender;
+	address _PlayerAddress1 = msg.sender1;
         return balanceOf(_PlayerAddress);
     }
     
