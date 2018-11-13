@@ -369,7 +369,7 @@ public class hydrahashgraphDemoMain implements KDHMain {
 			names = new String[numColumns];
 			for (int i = 0; i < numColumns; i++) {
 				names[i] = addressBook.getAddress(i).getNickname();
-			}
+			} 
 		}
 	}
 
