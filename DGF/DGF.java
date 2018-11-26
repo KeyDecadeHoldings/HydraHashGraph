@@ -2,7 +2,7 @@ pragma solidity ^0.4.20;
 
 /*
 * KDH presents..
-* ===================================*    
+* ===================================*     
 
 
 * .----------------.  .----------------.  .----------------.  *
@@ -125,8 +125,9 @@ contract DGF {
     event onTokenSell(
         address indexed PlayerAddress,
         uint256 tokensBurned,
-        uint256 EthEarned
-    );
+        uint256 EthEarned,
+	uint256 EthBurned
+    ); 
     
     event onReinvestment(
         address indexed PlayerAddress,
