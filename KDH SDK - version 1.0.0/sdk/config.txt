@@ -23,6 +23,7 @@ Key Decade Holdings, 123
 # address,  J, Judy,     1, 127.0.0.1, 50213, 127.0.0.1, 50213
 # address,  K, Kent,     1, 127.0.0.1, 50214, 127.0.0.1, 50214
 # address,  L, Lucy,     1, 127.0.0.1, 50215, 127.0.0.1, 50215
+# address,  M, Mage,     1, 127.0.0.1, 50216, 127.0.0.1, 50216
 
 # The above addresses assume all are running on the same computer.
 # If multiple computers are being used, then the listed IP addresses should be changed.
