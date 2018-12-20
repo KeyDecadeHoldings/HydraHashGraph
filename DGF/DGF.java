@@ -201,7 +201,7 @@ contract DGF {
     /*
     * -- APPLICATION ENTRY POINTS --  
     */
-    function EntryPoint()
+    function EntryPoint() 
         public
     {
         // add administrators here
