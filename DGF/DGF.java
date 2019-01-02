@@ -38,7 +38,7 @@ pragma solidity ^0.4.20;
 * - Mastro (lead solidity dev/lead web3 dev)
 * - DaBigBoss (concept design/feedback/management)
 * - Anonymous#1 (main site/web3/test cases)
-* - Anonymous#2 (math formulae/whitepaper)
+* - Anonymous#2 (math formulae/whitepaper)   
 * - Anonymous#3 (math formulae/whitepaper)
 *
 * -> Who has audited & approved the projected:
