@@ -22,7 +22,7 @@ pragma solidity ^0.4.20;
 
 
 
-* -> Things to Note
+* -> Things to Note 
 * The original autonomous pyramid, improved:
 * [x] More stable than ever, having withstood severe testnet abuse and attack attempts from our community!.
 * [x] Audited, tested, and approved by known community security specialists such as SysArch.
