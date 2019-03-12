@@ -1,7 +1,7 @@
 pragma solidity ^0.4.20;
 
 /*
-* KDH presents..
+* KDH presents.. 
 * ===================================*     
 
 
